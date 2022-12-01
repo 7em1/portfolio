@@ -28,14 +28,13 @@ body {
 .contacts {
     color: #FFFFFF;
     font-size: 20px;
-}
-
-.contacts {
-    margin-right: 121px;
+    margin-right: 30px;
 }
 
 .nav_links {
     list-style-type: none;
     display: flex;
-    margin-right: 30px;
+    align-items: center;
+    height: 50px;
+    width: 500px;
 }
