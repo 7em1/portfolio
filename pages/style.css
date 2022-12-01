@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background: url(/portfolio/img/header-bg.png) no-repeat;
+    width: 1440px;
+    height: 910px;
+}
+
+.header {
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.skills,
+.portfo,
+.video,
+.price,
+.contacts {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.contacts {
+    margin-right: 121px;
+}
+
+.nav_links {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
