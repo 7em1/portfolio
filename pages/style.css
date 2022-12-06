@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&display=swap');
 body {
     margin: 0;
 }
@@ -14,11 +16,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
     height: 50px;
     width: 50px;
+    margin-left: 20px;
 }
 
 .skills,
@@ -28,7 +32,9 @@ body {
 .contacts {
     color: #FFFFFF;
     font-size: 20px;
-    margin-right: 30px;
+    line-height: 50px;
+    font-weight: 400;
+
 }
 
 .nav_links {
@@ -37,4 +43,67 @@ body {
     align-items: center;
     height: 50px;
     width: 500px;
+    margin-left: auto;
+    font-family: "inter";
+}
+
+.switch {
+    font-weight: 700;
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+    font-family: "inter";
+}
+
+.en {
+    margin-right: 9px;
+}
+
+.ru {
+    margin-left: 8px;
+}
+
+.hero {
+    width: 500px;
+    height: 330px;
+    margin-left: 80px;
+    margin-top: 160px;
+}
+
+.hero_title,
+.hero_text {
+    color: #FFFFFF;
+
+}
+
+.hero_title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120px;
+    
+}
+
+.hero_text,.but_1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "inter";
+}
+.hero_text{
+    margin-top: 10px;
+}
+
+.but_1 {
+    width: 220px;
+    height: 55px;
+    background-color: #BDAE82;
+    margin-top: 25px;
 }
