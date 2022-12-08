@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&display=swap');
+
 body {
     margin: 0;
 }
@@ -35,16 +36,18 @@ body {
     line-height: 50px;
     font-weight: 400;
 
+
 }
 
 .nav_links {
     list-style-type: none;
     display: flex;
-    align-items: center;
+    justify-content: center;
     height: 50px;
     width: 500px;
     margin-left: auto;
     font-family: "inter";
+    margin-right: 10px;
 }
 
 .switch {
@@ -88,16 +91,18 @@ body {
     font-weight: 700;
     font-size: 60px;
     line-height: 120px;
-    
+
 }
 
-.hero_text,.but_1 {
+.hero_text,
+.but_1 {
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     font-family: "inter";
 }
-.hero_text{
+
+.hero_text {
     margin-top: 10px;
 }
 
@@ -107,3 +112,35 @@ body {
     background-color: #BDAE82;
     margin-top: 25px;
 }
+
+.skills_section {
+    width: 1440px;
+    height: 482px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.skills_wrapper {
+    width: 50%;
+    height: 80px;
+    color: #BDAE82;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    margin: 100px;
+    
+}
+.item_skills{
+    width: 1400px;
+    height: 242px;
+}
+.skills_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 242px;
+  }
