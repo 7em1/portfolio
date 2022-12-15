@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background: url(/portfolio/img/header-bg.png) no-repeat;
+    background: url(../img/header-bg.png    ) no-repeat;
     width: 1440px;
     height: 910px;
 }
@@ -66,6 +66,7 @@ body {
 
 .en {
     margin-right: 9px;
+    color: #BDAE82;
 }
 
 .ru {
@@ -117,31 +118,33 @@ body {
     width: 1440px;
     height: 482px;
     background-color: #000000;
-    display: flex;
+    padding-top: 100px;
+    display: grid;
     justify-content: center;
 }
 
 .skills_wrapper {
-    width: 50%;
+    width: 700px;
     height: 80px;
     color: #BDAE82;
     font-family: 'Merriweather';
     font-weight: 700;
     font-size: 40px;
     line-height: 80px;
-    text-align: center;
-    margin: 100px;
-    
+    display: flex;
+    justify-content: center;
+
 }
-.item_skills{
-    width: 1400px;
-    height: 242px;
+
+.skills_line {
+    width: 275px;
 }
-.skills_items {
+
+.skill_name {
+    margin: 0 20px;
+}
+.skills-items {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1400px;
-    height: 242px;
   }
-  aaa
