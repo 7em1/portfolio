@@ -23,6 +23,11 @@ body {
   height: 50px;
   width: 50px;
   margin-left: 20px;
+
+}
+
+.logo:hover {
+  color: #BDAE82;
 }
 
 .skills,
@@ -109,24 +114,52 @@ body {
   margin-top: 25px;
 }
 
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
 main {
   background-color: black;
   width: 1440px;
 }
 
+.hover {
+  position: absolute;
+}
+
+.vid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link_1 {
+  position: absolute;
+}
+
 .skills {
   height: 480px;
 }
+
 .text_line {
   height: 2px;
   width: 274px;
   background-color: #bdae82;
 }
+
 .skillsTitle {
   margin: 20px;
   color: #bdae82;
   font-size: 47px;
 }
+
 .sectionTitle {
   display: flex;
   justify-content: center;
@@ -135,11 +168,13 @@ main {
   position: relative;
   top: 100px;
 }
+
 .skillsItems {
   display: flex;
   justify-content: center;
   margin-top: 140px;
 }
+
 .skillsItem {
   width: 320px;
   height: 240px;
@@ -149,37 +184,45 @@ main {
   align-items: center;
   text-align: center;
 }
+
 .skillsItemsTitle {
   font-size: 23px;
   margin: 55px 0 0px;
 }
+
 .skillsItemsText {
   font-size: 22px;
   line-height: 35px;
 }
+
 .skillsImg {
   height: 50px;
 }
+
 .portfolio {
   background-color: black;
   height: 1500px;
 }
+
 .titleWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 115px;
 }
+
 .portfolioTitle {
   color: #bdae82;
   margin: 0 20px;
   font-size: 47px;
 }
+
 .portfolioTitleLine {
   width: 240px;
   height: 2px;
   background-color: #bdae82;
 }
+
 .portfoliobtns {
   margin-top: 72px;
   width: 1440px;
@@ -187,6 +230,7 @@ main {
   display: flex;
   justify-content: center;
 }
+
 .btnWrapper {
   width: 216px;
   height: 51px;
@@ -197,15 +241,18 @@ main {
   justify-content: center;
   align-items: center;
 }
+
 .btn {
   font-size: 24px;
   color: #bdae82;
   text-decoration: none;
 }
+
 .btnActiv {
   background-color: #bdae82;
   color: black;
 }
+
 .portfolioImgWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -213,48 +260,103 @@ main {
   align-items: center;
   margin-top: 47.5px;
 }
+
 .portfolioImg {
   width: 450px;
   height: 560px;
   margin: 12.5px;
 }
+
 .video {
   height: 945px;
 }
+
 .videoTitleWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .videoTitle {
   color: #bdae82;
   font-size: 47px;
   margin: 0 20px;
 }
-.videoTitleLine {
-  width: 271px;
-  height: 2px;
-  background-color: #bdae82;
-}
+
 .videoPlayer {
   margin: 72px 20px;
 }
+
 .price {
-    height: 845px;
-  }
-  .priceTitleWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .priceTitle {
-    color: #bdae82;
-    font-size: 47px;
-    margin: 0 20px;
-  }
-  .priceTitleLine {
-    width: 279px;
-    height: 2px;
-    background-color: #bdae82;
-  }
-  
+  height: 845px;
+}
+
+.priceTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.priceTitle {
+  color: #bdae82;
+  font-size: 47px;
+  margin: 0 20px;
+
+}
+
+.priceTitleLine {
+  width: 279px;
+  height: 2px;
+  background-color: #bdae82;
+}
+
+.priceItemPrice {
+  font-family: "Merriweather";
+  font-size: 24px;
+  line-height: 48px;
+  color: #BDAE82;
+  font-style: bold;
+}
+
+.priceItem {
+  border: solid 2px #BDAE82;
+  width: 450px;
+  height: 505px;
+  text-align: center;
+}
+.priceItemWrapper{
+  display: flex;
+}
+
+.priceItemTitle {
+  font-family: Merriweather;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  margin: 43px;
+
+}
+
+.ItemFrameWrapper {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.order {
+  width: 220px;
+  height: 55px;
+  background-color: #BDAE82;
+  color: black;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+.ItemFrame{
+  display: block;
+}
