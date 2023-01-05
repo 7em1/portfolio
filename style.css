@@ -1,0 +1,389 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: inter;
+}
+h2 {
+  font-family: Merriweather;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  color: #ffffff;
+}
+
+
+header {
+  background-image: url(/img/bg.png);
+  height: 910px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  height: 90px;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 20px;
+}
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 570px;
+  height: 50px;
+  margin-top: 20px;
+}
+.navigation {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.navigation:hover {
+  color: #bdae82;
+}
+.translateWrapper {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+}
+.translateOn {
+  color: #bdae82;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.translateOff {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.hero {
+  color: white;
+  height: 330px;
+  width: 500px;
+  margin: 160px 80px;
+}
+.heroTitle {
+  height: 110px;
+  font-size: 61px;
+  margin-top: 180px;
+}
+.heroText {
+  height: 135px;
+  width: 470px;
+  font-size: 20px;
+  line-height: 40px;
+}
+.hireMe {
+  height: 55px;
+  width: 220px;
+  background-color: #bdae82;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hireMe:hover{
+  background-color: #bdae82;
+  color: #ffffff;
+}
+main {
+  background-color: black;
+}
+
+.skills {
+  height: 480px;
+}
+.sectionTitleLine {
+  height: 2px;
+  width: 274px;
+  background-color: #bdae82;
+}
+.skillsTitle {
+  margin: 20px;
+  color: #bdae82;
+  font-size: 40px;
+}
+.sectionTitleWrapper {
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  align-items: flex-end;
+}
+.sectionTitleSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.skillsItems {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.skillsItem {
+  width: 320px;
+  height: 240px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.skillsItemsTitle {
+  font-size: 21px;
+  margin: 55px 0 30px;
+}
+.skillsItemsText {
+  font-size: 19px;
+  line-height: 35px;
+  color: #ffffff;
+  width: 280px;
+}
+.skillsImg {
+  height: 50px;
+}
+
+.portfolio {
+  height: 1500px;
+}
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+}
+.portfolioTitle {
+  color: #bdae82;
+  margin: 0 20px;
+  font-size: 40px;
+}
+.portfolioTitleLine {
+  width: 240px;
+  height: 2px;
+  background-color: #bdae82;
+}
+.portfoliobtns {
+  margin-top: 60px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+}
+.btnWrapper {
+  width: 216px;
+  height: 51px;
+  color: #bdae82;
+  border: 3px solid #bdae82;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnWrapper:hover {
+  color: white;
+  cursor: pointer;
+}
+.btn {
+  font-size: 20spx;
+  color: #bdae82;
+}
+.btnActiv {
+  background-color: #bdae82;
+  color: black;
+}
+.portfolioImgWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 47.5px;
+}
+.portfolioImg {
+  width: 450px;
+  height: 560px;
+  margin: 12px;
+}
+
+.video {
+  height: 945px;
+}
+.sectionTitleWrapper1 {
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  align-items: flex-end;
+}
+.videoTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playHover {
+  top: 3420px;
+  position: absolute;
+}
+.videoTitle {
+  color: #bdae82;
+  font-size: 40px;
+  margin: 0 20px;
+}
+.videoTitleLine {
+  width: 271px;
+  height: 2px;
+  background-color: #bdae82;
+}
+.videoPlayer {
+  margin: 72px 20px;
+}
+
+.price {
+  height: 845px;
+}
+.priceTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priceTitle {
+  color: #bdae82;
+  font-size: 40px;
+  margin: 0 20px;
+}
+.priceTitleLine {
+  width: 279px;
+  height: 2px;
+  background-color: #bdae82;
+}
+.priceItemWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.priceItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 505px;
+  width: 450px;
+  margin: 20px;
+  border: 3px #bdae82 solid;
+  color: #ffffff;
+}
+.priceItemTitle {
+  margin-top: 45px;
+  font-size: 29px;
+  font-family: Merriweather;
+}
+.priceItemPrice {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #bdae82;
+  height: 39px;
+}
+.priceItemFrameWrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+.priceItemFrame {
+  margin-top: 10px;
+  font-size: 18px;
+  height: 25px;
+}
+.priceItemButton {
+  height: 55px;
+  width: 220px;
+  background-color: #bdae82;
+  margin-top: 45px;
+  font-size: 20px;
+}
+button:hover {
+  background-color: #948865;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.contacts {
+  background-image: url(/img/contacts.jpg);
+  height: 700px;
+  display: flex;
+  justify-content: flex-end;
+}
+.contactsTitle {
+  font-size: 40px;
+}
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  color: #bdae82;
+  margin-top: 75px;
+  font-size: 30px;
+}
+.aboutYou {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: #bdae82 2px solid;
+  margin-right: 18px;
+  color: #bdae82;
+}
+.aboutYou::placeholder {
+  color: #bdae82;
+  font-size: 20px;
+}
+.e-mailAboutYou {
+  height: 50px;
+  margin-top: 50px;
+}
+.phoneAboutYou {
+  height: 50px;
+  margin: 20px 0;
+}
+.messageAboutYou {
+  height: 100px;
+}
+.sendMessage {
+  height: 55px;
+  width: 220px;
+  background-color: #bdae82;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+footer {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.socialData {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.githubLink {
+  color: #ffffff;
+}
+.c {
+  height: 20px;
+}
+.socialListWrapper {
+  margin-right: 10px;
+}
+.socialList {
+  margin: 12px;
+}
+.socialList:hover {
+  scale: 1.5;
+}
